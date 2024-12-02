@@ -53,7 +53,9 @@ struct NewSessionJSONResposne {
 pub fn new_session_request() {
 	// add POST
 	//
-	// 
+	//
+
+	// print response at first
 }
 
 // https://www.w3.org/TR/webdriver2/#delete-session
@@ -62,4 +64,6 @@ pub fn delete_session_request(session_id: String) {
 	// /session/<session_id>
 	//
 	// success if return value is null
+
+	// print response at first
 }
