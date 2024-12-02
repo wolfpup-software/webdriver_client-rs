@@ -49,12 +49,14 @@ struct NewSessionJSONResposne {
 	capabilities: SessionCapabilities;
 }
 
+// https://www.w3.org/TR/webdriver2/#dfn-new-sessions
 pub fn new_session_request() {
 	// add POST
 	//
 	// 
 }
 
+// https://www.w3.org/TR/webdriver2/#delete-session
 pub fn delete_session_request(session_id: String) {
 	// add DELETE
 	// /session/<session_id>
