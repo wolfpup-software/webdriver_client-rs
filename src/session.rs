@@ -1,18 +1,4 @@
 const session_url_path: &str = "/session";
-const session_error_code: usize = 500;
-const session_error: &str = "session not created"
-
-// // POST /session
-// struct PostSessionResponse {
-// 	session_id: String;
-// }
-
-// // Create session
-// // Delete session
-
-// add capabilities later
-
-const session_url_path: &str = "/session"
 
 struct Error {
 	error: String;
